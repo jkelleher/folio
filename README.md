@@ -7,6 +7,12 @@ I wanted something that would cope well with a single page descriptor of a given
 
 I then created a matching home.html page to scaffold the index.md. I added some [liquid](http://liquidmarkup.org) markup to drop all references to branches if there were none so that the navigation would reflect this.
 
+####Instructions for adapting to new deployment
+* edit _config.yml to change repo details (i.e. **baseurl**, **repo**, **url**)
+* amend posts in **_branches** setting **publish** to true where appropriate
+* add any images to **/img** and update posts to point to those images
+* to right align an image use `![an image]({{site.baseurl}}/img/an_image.gif){: .three .boxed}`` - note the colon
+* for code snippets use `{% highlight Bash %}` - uses Pygments highlighting - and end with `{% endhighlight %}`
 
 ___
 
