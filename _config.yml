@@ -4,12 +4,13 @@ name: john kelleher
 email: kelleher.john@itsligo.ie
 description: > # this means to ignore newlines until "baseurl:"
   A simple, whitespace, helvetica based portfolio theme.
-baseurl: /blog # the subpath of your site, e.g. /blog/
-url: https://itsligo.github.com/blog # the base hostname & protocol for your site
-repo: https://github.com/itsligo/blog  # repo for the code
+baseurl: /movies # the subpath of your site, e.g. /blog/
+url: https://itsligo.github.com/movies # the base hostname & protocol for your site
+repo: https://github.com/itsligo/movies  # repo for the code
 twitter: johnkelleher
+linkedin: http://ie.linkedin.com/in/johnjkelleher
 github_username:  jkelleher
-website: "jkelleher.me"
+website: jkelleher.me
 
 # Build settings
 markdown: kramdown
